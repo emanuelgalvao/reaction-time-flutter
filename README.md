@@ -1,16 +1,18 @@
-# reaction_time_app
+# Reaction Time App
 
-A new Flutter project.
+## Sobre o projeto
 
-## Getting Started
+Projeto desenvolvido para fins de estudos relacionado ao desenvolvimento híbrido utilizando Flutter. 
 
-This project is a starting point for a Flutter application.
+A ideia do aplicativo surgiu a partir da temática "1 Botão", onde o foco principal da aplicação é ter o funcionamento através de apenas o clique em um botão.
 
-A few resources to get you started if this is your first Flutter project:
+Desenvolvimento realizado focado na arquitetura MVI, utilizando ValueNotifier nas ViewModels para constrolar a atualização dos estados das telas e realizada a abstração de algumas classes utilizando interfaces.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Persistência do histórico de melhores tempos registrados utilizando SharedPreferences.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Resultado do projeto
+
+<div align="center">
+  <img src="https://github.com/emanuelgalvao/reaction-time-flutter/blob/main/readme/demo.gif" width="300">
+</div>
+
